@@ -11,6 +11,7 @@
   --color-texto-1:#fff;
   --color-text-2:#fd0;
   --color-texto-3:#ff3535;
+  --color-texto-4:#505050;
 }
 body{
   font-family: "Titillium Web", sans-serif;
@@ -99,4 +100,64 @@ body{
   text-align: center;
   font-size: 1.2em;
   border-radius: 25px;
+}
+
+/* NOSOTROS */
+
+.container{
+  margin: auto;
+}
+.section_2{
+  width: 75%;
+  margin: auto;
+  padding: 75px 0;
+}
+.section_2-title{
+  font-family:'roboto',sans-serif;
+  font-size: 40px;
+  color: var(--color-texto-3);
+  font-weight: bold;
+  margin: 25px 0;
+}
+.us{
+  display: flex;
+
+}
+.us-text{
+  width: 60%;
+  padding: 0 10% 0 0;
+}
+.us-paragrah{
+  font-family:'roboto',sans-serif;
+  font-size: 18px;
+  color: var(--color-texto-4);
+  text-align: justify;
+  
+}
+.paragrah-text{
+  margin: 10px 0;
+}
+.us-rs{
+  margin: 20px 0 ;
+}
+.us-rs-title{
+  font-family:'roboto',sans-serif;
+  font-size: 20px;
+  color: var(--color-texto-3);
+  font-weight: bold;
+  margin: 30px 0;
+}
+.rs-icon{
+  margin: 20px 0;
+}
+.rs-link{
+  margin: 0 10px;
+}
+.us-img{
+  width: 40%;
+}
+.img-img{
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
 }
